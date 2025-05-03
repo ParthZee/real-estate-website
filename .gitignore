@@ -1,0 +1,35 @@
+# Ignore environment configuration
+.env
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore node modules
+node_modules/
+
+# Ignore vendor folder if using Composer
+/vendor/
+
+# Ignore asset builds
+dist/
+build/
+
+# Ignore uploads and user-generated content
+uploaded_files/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Ignore compiled CSS/JS
+*.min.css
+*.min.js
