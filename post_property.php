@@ -240,50 +240,50 @@ if(isset($_POST['post'])){
       <h3>Property details</h3>
       <div class="box">
          <p>Property name <span>*</span></p>
-         <input type="text" name="Property_name" required maxlength="50" placeholder="enter property name" class="input">
+         <input type="text" name="Property_name" required maxlength="50" placeholder="Enter property name" class="input">
       </div>
       <div class="flex">
          <div class="box">
             <p>Property price <span>*</span></p>
-            <input type="number" name="Price" required min="0" max="9999999999" maxlength="10" placeholder="enter property price" class="input">
+            <input type="number" name="Price" required min="0" max="9999999999" maxlength="10" placeholder="Enter property price" class="input">
          </div>
          <div class="box">
             <p>Deposite amount <span>*</span></p>
-            <input type="number" name="deposite" required min="0" max="9999999999" maxlength="10" placeholder="enter deposite amount" class="input">
+            <input type="number" name="deposite" required min="0" max="9999999999" maxlength="10" placeholder="Enter deposite amount" class="input">
          </div>
          <div class="box">
             <p>Property address <span>*</span></p>
-            <input type="text" name="address" required maxlength="100" placeholder="enter property full address" class="input">
+            <input type="text" name="address" required maxlength="100" placeholder="Enter property full address" class="input">
          </div>
          <div class="box">
             <p>Offer type <span>*</span></p>
             <select name="offer" required class="input">
-               <option value="sale">sale</option>
-               <option value="resale">resale</option>
-               <option value="rent">rent</option>
+               <option value="sale">Sale</option>
+               <option value="resale">Resale</option>
+               <option value="rent">Rent</option>
             </select>
          </div>
          <div class="box">
             <p>Property type <span>*</span></p>
             <select name="type" required class="input">
-               <option value="flat">flat</option>
-               <option value="house">house</option>
-               <option value="shop">shop</option>
+               <option value="flat">Flat</option>
+               <option value="house">House</option>
+               <option value="shop">Shop</option>
             </select>
          </div>
          <div class="box">
             <p>Property status <span>*</span></p>
             <select name="status" required class="input">
-               <option value="ready to move">ready to move</option>
-               <option value="under construction">under construction</option>
+               <option value="ready to move">Ready to move</option>
+               <option value="under construction">Under construction</option>
             </select>
          </div>
          <div class="box">
             <p>Furnished status <span>*</span></p>
             <select name="furnished" required class="input">
-               <option value="furnished">furnished</option>
-               <option value="semi-furnished">semi-furnished</option>
-               <option value="unfurnished">unfurnished</option>
+               <option value="furnished">Furnished</option>
+               <option value="semi-furnished">Semi-furnished</option>
+               <option value="unfurnished">Unfurnished</option>
             </select>
          </div>
          <div class="box">
@@ -303,62 +303,62 @@ if(isset($_POST['post'])){
          <div class="box">
             <p>How many bedrooms <span>*</span></p>
             <select name="bedroom" required class="input">
-               <option value="0">0 bedroom</option>
-               <option value="1" selected>1 bedroom</option>
-               <option value="2">2 bedroom</option>
-               <option value="3">3 bedroom</option>
-               <option value="4">4 bedroom</option>
-               <option value="5">5 bedroom</option>
-               <option value="6">6 bedroom</option>
-               <option value="7">7 bedroom</option>
-               <option value="8">8 bedroom</option>
-               <option value="9">9 bedroom</option>
+               <option value="0">0 Bedroom</option>
+               <option value="1" selected>1 Bedroom</option>
+               <option value="2">2 Bedroom</option>
+               <option value="3">3 Bedroom</option>
+               <option value="4">4 Bedroom</option>
+               <option value="5">5 Bedroom</option>
+               <option value="6">6 Bedroom</option>
+               <option value="7">7 Bedroom</option>
+               <option value="8">8 Bedroom</option>
+               <option value="9">9 Bedroom</option>
             </select>
          </div>
          <div class="box">
             <p>How many bathrooms <span>*</span></p>
             <select name="bathroom" required class="input">
-               <option value="1">1 bathroom</option>
-               <option value="2">2 bathroom</option>
-               <option value="3">3 bathroom</option>
-               <option value="4">4 bathroom</option>
-               <option value="5">5 bathroom</option>
-               <option value="6">6 bathroom</option>
-               <option value="7">7 bathroom</option>
-               <option value="8">8 bathroom</option>
-               <option value="9">9 bathroom</option>
+               <option value="1">1 Bathroom</option>
+               <option value="2">2 Bathroom</option>
+               <option value="3">3 Bathroom</option>
+               <option value="4">4 Bathroom</option>
+               <option value="5">5 Bathroom</option>
+               <option value="6">6 Bathroom</option>
+               <option value="7">7 Bathroom</option>
+               <option value="8">8 Bathroom</option>
+               <option value="9">9 Bathroom</option>
             </select>
          </div>
          <div class="box">
             <p>How many balconys <span>*</span></p>
             <select name="balcony" required class="input">
-               <option value="0">0 balcony</option>
-               <option value="1">1 balcony</option>
-               <option value="2">2 balcony</option>
-               <option value="3">3 balcony</option>
-               <option value="4">4 balcony</option>
-               <option value="5">5 balcony</option>
-               <option value="6">6 balcony</option>
-               <option value="7">7 balcony</option>
-               <option value="8">8 balcony</option>
-               <option value="9">9 balcony</option>
+               <option value="0">0 Balcony</option>
+               <option value="1">1 Balcony</option>
+               <option value="2">2 Balcony</option>
+               <option value="3">3 Balcony</option>
+               <option value="4">4 Balcony</option>
+               <option value="5">5 Balcony</option>
+               <option value="6">6 Balcony</option>
+               <option value="7">7 Balcony</option>
+               <option value="8">8 Balcony</option>
+               <option value="9">9 Balcony</option>
             </select>
          </div>
          <div class="box">
             <p>Carpet area <span>*</span></p>
-            <input type="number" name="carpet" required min="1" max="9999999999" maxlength="10" placeholder="how many squarefits?" class="input">
+            <input type="number" name="carpet" required min="1" max="9999999999" maxlength="10" placeholder="How many squarefits?" class="input">
          </div>
          <div class="box">
             <p>Property age <span>*</span></p>
-            <input type="number" name="age" required min="0" max="99" maxlength="2" placeholder="how old is property?" class="input">
+            <input type="number" name="age" required min="0" max="99" maxlength="2" placeholder="How old is property?" class="input">
          </div>
          <div class="box">
             <p>Total floors <span>*</span></p>
-            <input type="number" name="total_floors" required min="0" max="99" maxlength="2" placeholder="how floors available?" class="input">
+            <input type="number" name="total_floors" required min="0" max="99" maxlength="2" placeholder="How floors available?" class="input">
          </div>
          <div class="box">
             <p>Floor room <span>*</span></p>
-            <input type="number" name="room_floor" required min="0" max="99" maxlength="2" placeholder="property floor number" class="input">
+            <input type="number" name="room_floor" required min="0" max="99" maxlength="2" placeholder="Property floor number" class="input">
          </div>
          <div class="box">
             <p>Loan <span>*</span></p>
@@ -370,7 +370,7 @@ if(isset($_POST['post'])){
       </div>
       <div class="box">
          <p>Property description <span>*</span></p>
-         <textarea name="description" maxlength="1000" class="input" required cols="30" rows="10" placeholder="write about property..."></textarea>
+         <textarea name="description" maxlength="1000" class="input" required cols="30" rows="10" placeholder="Write about property..."></textarea>
       </div>
       <div class="checkbox">
          <div class="box">
